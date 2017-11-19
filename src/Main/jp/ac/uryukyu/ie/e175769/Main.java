@@ -7,7 +7,7 @@ public class Main {
             double value = Double.parseDouble(str);
             //System.out.println(str.length());
         }
-        catch(NullPointerException e){
+        catch(NumberFormatException e){
             System.out.println(e.toString()+"が発生");
             System.out.println(e.getMessage());
         }
